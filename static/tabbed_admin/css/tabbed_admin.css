@@ -1,0 +1,4 @@
+#tabs{clear:both}.ui-state-default a.errortab{background-color:red;color:white}.ui-tabs .ui-tabs-panel{overflow:hidden}
+.ui-tabs .ui-tabs-nav li{
+  float: right;
+}

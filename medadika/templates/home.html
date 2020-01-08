@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+    <div class="menus">
+        {% placeholder "menus" %}
+    </div>
+    <div class="daily_specials">
+        -----
+        {% placeholder "daily_specials" %}
+    </div>
+{% endblock content %}

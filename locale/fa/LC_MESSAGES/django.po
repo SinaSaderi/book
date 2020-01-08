@@ -1,0 +1,581 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-09 00:34+0330\n"
+"PO-Revision-Date: 2020-01-09 00:34+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: article/apps.py:6 article/models.py:59
+msgid "Articles"
+msgstr "مقاله ها"
+
+#: article/models.py:6 article/models.py:17
+msgid "Full name"
+msgstr "نام کامل"
+
+#: article/models.py:9 article/models.py:51
+msgid "Author"
+msgstr "نویسنده"
+
+#: article/models.py:10
+msgid "Authors"
+msgstr "نویسنده ها"
+
+#: article/models.py:20 article/models.py:52
+msgid "Translator"
+msgstr "مترجم"
+
+#: article/models.py:21
+msgid "Translators"
+msgstr "مترجم ها"
+
+#: article/models.py:28 article/models.py:39 article/models.py:49
+#: article/models.py:53
+msgid "Title"
+msgstr "عنوان"
+
+#: article/models.py:31
+msgid "Publication"
+msgstr "ناشر"
+
+#: article/models.py:32
+msgid "Publications"
+msgstr "ناشر ها"
+
+#: article/models.py:42 article/models.py:50
+msgid "Category"
+msgstr "دسته بندی"
+
+#: article/models.py:43
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#: article/models.py:54
+msgid "Year"
+msgstr "سال"
+
+#: article/models.py:55 medadika/mylang.py:2
+msgid "Page"
+msgstr "صفحه"
+
+#: article/models.py:58
+msgid "Article"
+msgstr "مقاله"
+
+#: medadika/mylang.py:1 medadika/mylang.py:25
+msgid "Pages"
+msgstr "صفحات"
+
+#: medadika/mylang.py:3
+msgid "Create Page"
+msgstr "ایجاد صفحه"
+
+#: medadika/mylang.py:4
+msgid "New Page"
+msgstr "صفحه جدید"
+
+#: medadika/mylang.py:5
+msgid "New Sub Page"
+msgstr "زیر صفحه جدید"
+
+#: medadika/mylang.py:6
+msgid "Duplicate this Page"
+msgstr "کپی کردن صفحه"
+
+#: medadika/mylang.py:7
+msgid "Edit this Page"
+msgstr "ویرایش این صفحه"
+
+#: medadika/mylang.py:8
+msgid "Page settings"
+msgstr "تنظیمات صفحه"
+
+#: medadika/mylang.py:9
+msgid "Users"
+msgstr "کاربران"
+
+#: medadika/mylang.py:10
+msgid "User settings"
+msgstr "تنظیمات کاربر"
+
+#: medadika/mylang.py:11
+msgid "Clipboard"
+msgstr "حافظه"
+
+#: medadika/mylang.py:12
+msgid "Clear clipboard"
+msgstr "پاک کردن حافظه"
+
+#: medadika/mylang.py:13
+msgid "Disable toolbar"
+msgstr "غیر فعال کردن نوار ابزار"
+
+#: medadika/mylang.py:14
+msgid "Shortcuts"
+msgstr "میان‌برها"
+
+#: medadika/mylang.py:15
+msgid "Logout"
+msgstr "خروج"
+
+#: medadika/mylang.py:16
+msgid "DJANGO CMS"
+msgstr "مدادیکا"
+
+#: medadika/mylang.py:17
+msgid "django cms"
+msgstr "مدادیکا"
+
+#: medadika/mylang.py:19
+msgid "django CMS"
+msgstr "مدادیکا"
+
+#: medadika/mylang.py:20
+msgid "Filer"
+msgstr "فایل ها"
+
+#: medadika/mylang.py:21
+msgid "Folders"
+msgstr "پوشه ها"
+
+#: medadika/mylang.py:22
+msgid "Thumbnail options"
+msgstr "تنظیمات تصاویر"
+
+#: medadika/mylang.py:23
+msgid "Page types"
+msgstr "نوع صفحات"
+
+#: medadika/mylang.py:24
+msgid "page types"
+msgstr "نوع صفحات"
+
+#: medadika/mylang.py:26
+msgid "pages"
+msgstr "صفحات"
+
+#: medadika/mylang.py:27
+msgid "Pages global permissions"
+msgstr "مجوز های عمومی صفحات"
+
+#: medadika/mylang.py:28
+msgid "static placeholders"
+msgstr "placeholder های ثابت"
+
+#: medadika/mylang.py:29
+msgid "Static placeholders"
+msgstr "placeholder های ثابت"
+
+#: medadika/mylang.py:30
+msgid "User groups (page)"
+msgstr "گروه کاربری (صفحات)"
+
+#: medadika/mylang.py:31
+msgid "Users (page)"
+msgstr "کاربرها (صفحات)"
+
+#: medadika/mylang.py:32
+msgid "Open"
+msgstr "مشاهده"
+
+#: medadika/mylang.py:33
+msgid "New"
+msgstr "جدید"
+
+#: medadika/settings.py:172
+msgid "en"
+msgstr "انگلیسی"
+
+#: medadika/settings.py:173 medadika/settings.py:185
+msgid "fa"
+msgstr "فارسی"
+
+#: medadika/settings.py:236 medadika/settings.py:252
+msgid "Default"
+msgstr ""
+
+#: medadika/settings.py:240
+msgid "Container"
+msgstr ""
+
+#: medadika/settings.py:241
+msgid "Fluid container"
+msgstr ""
+
+#: medadika/settings.py:244
+msgid "Column"
+msgstr ""
+
+#: medadika/settings.py:245
+msgid "Break"
+msgstr ""
+
+#: medadika/settings.py:246
+msgid "Empty"
+msgstr ""
+
+#: medadika/settings.py:269
+msgid "Primary"
+msgstr ""
+
+#: medadika/settings.py:270
+msgid "Secondary"
+msgstr ""
+
+#: medadika/settings.py:271
+msgid "Success"
+msgstr ""
+
+#: medadika/settings.py:272
+msgid "Danger"
+msgstr ""
+
+#: medadika/settings.py:273
+msgid "Warning"
+msgstr ""
+
+#: medadika/settings.py:274
+msgid "Info"
+msgstr ""
+
+#: medadika/settings.py:275
+msgid "Light"
+msgstr ""
+
+#: medadika/settings.py:276
+msgid "Dark"
+msgstr ""
+
+#: medadika/settings.py:277
+msgid "Custom"
+msgstr ""
+
+#: medadika/urls.py:34
+msgid "Medadika Admin"
+msgstr "مدیریت مدادیکا"
+
+#~ msgid "General information"
+#~ msgstr "اطلاعات عمومی"
+
+#~ msgid "description"
+#~ msgstr "توضیحات"
+
+#~ msgid "Images"
+#~ msgstr "تصاویر"
+
+#~ msgid "Google map"
+#~ msgstr "نقشه گوگل"
+
+#~ msgid "Agency"
+#~ msgstr "آژانس"
+
+#~ msgid "City"
+#~ msgstr "شهر"
+
+#~ msgid "CEO"
+#~ msgstr "مدیر آژانس"
+
+#~ msgid "Certify"
+#~ msgstr "مجوز"
+
+#~ msgid "Certify number"
+#~ msgstr "شماره مجوز"
+
+#~ msgid "Mobile"
+#~ msgstr "موبایل"
+
+#~ msgid "Telephone"
+#~ msgstr "تلفن"
+
+#~ msgid "Fax"
+#~ msgstr "فکس"
+
+#~ msgid "Address"
+#~ msgstr "آدرس"
+
+#~ msgid "Site"
+#~ msgstr "وب سایت"
+
+#~ msgid "Email"
+#~ msgstr "ایمیل"
+
+#~ msgid "Services"
+#~ msgstr "خدمات"
+
+#~ msgid "info"
+#~ msgstr "توضیحات"
+
+#~ msgid "googlemap"
+#~ msgstr "نقشه گوگل"
+
+#~ msgid "Agencies"
+#~ msgstr "آزانس ها"
+
+#~ msgid "Agency image"
+#~ msgstr "تصویر آژانس"
+
+#~ msgid "Agency images"
+#~ msgstr "تصاویر آژانس"
+
+#~ msgid "AsanYab Admin"
+#~ msgstr "مدیریت مدادیکا"
+
+#~ msgid "Options"
+#~ msgstr "امکانات"
+
+#~ msgid "Host"
+#~ msgstr "اقامتگاه"
+
+#~ msgid "Type title"
+#~ msgstr "عنوان"
+
+#~ msgid "Host type"
+#~ msgstr "نوع اقامتگاه"
+
+#~ msgid "Host types"
+#~ msgstr "انواع اقامتگاه"
+
+#~ msgid "Option category title"
+#~ msgstr "دسته بندی امکانات اقامتگاه"
+
+#~ msgid "Icon"
+#~ msgstr "آیکون"
+
+#~ msgid "Order"
+#~ msgstr "ترتیب"
+
+#~ msgid "Option category"
+#~ msgstr "دسته‌ بندی امکانات"
+
+#~ msgid " Option categories"
+#~ msgstr "دسته بندی های امکانات"
+
+#~ msgid "Option title"
+#~ msgstr "عنوان"
+
+#~ msgid "Host option"
+#~ msgstr "امکانات اقامتگاه"
+
+#~ msgid "Host options"
+#~ msgstr "امکانات اقامتگاه"
+
+#~ msgid "Host name"
+#~ msgstr "نام اقامتگاه"
+
+#~ msgid "rate"
+#~ msgstr "درجه"
+
+#~ msgid "Service symbol"
+#~ msgstr "نماد خدمات"
+
+#~ msgid "Symbol desc"
+#~ msgstr "توضیح نماد"
+
+#~ msgid "Entrance time"
+#~ msgstr "ساعت ورود"
+
+#~ msgid "Leaving time"
+#~ msgstr "ساعت خروج"
+
+#~ msgid "Host desc"
+#~ msgstr "توضیحات"
+
+#~ msgid "Hosts"
+#~ msgstr "اقامتگاه ها"
+
+#~ msgid "Host image"
+#~ msgstr "تصویر"
+
+#~ msgid " Host images"
+#~ msgstr "تصاویر اقامتگاه"
+
+#~ msgid "Description"
+#~ msgstr "توضیحات"
+
+#~ msgid "Destinations"
+#~ msgstr "مقاصد"
+
+#~ msgid "Packages"
+#~ msgstr "پکیج ها"
+
+#~ msgid "Tour"
+#~ msgstr "تور"
+
+#~ msgid "Tour category"
+#~ msgstr "دسته بندی تور"
+
+#~ msgid "Tours categories"
+#~ msgstr "دسته بندی های تور"
+
+#~ msgid "title"
+#~ msgstr "عنوان"
+
+#~ msgid "Tour type"
+#~ msgstr "نوع تور"
+
+#~ msgid "Tour types"
+#~ msgstr "انواع تور"
+
+#~ msgid "Airline logo"
+#~ msgstr "لوگو"
+
+#~ msgid "Airline"
+#~ msgstr "هواپیمایی"
+
+#~ msgid "Airlines"
+#~ msgstr "هواپیمایی‌ها"
+
+#~ msgid "Origin city"
+#~ msgstr "شهر مبدا"
+
+#~ msgid "Tour line"
+#~ msgstr "خطوط حمل و نقل"
+
+#~ msgid "Start date"
+#~ msgstr "تاریخ شروع"
+
+#~ msgid "End date"
+#~ msgstr "تاریخ اتمام"
+
+#~ msgid "Tour staying"
+#~ msgstr "مدت اقامت"
+
+#~ msgid "Tour date"
+#~ msgstr "تاریخ تور"
+
+#~ msgid "Tour docs"
+#~ msgstr "مدارک مورد نیاز"
+
+#~ msgid "Tour Description"
+#~ msgstr "توضیحات تور"
+
+#~ msgid "Tours"
+#~ msgstr "تور ها"
+
+#~ msgid "Origin airport"
+#~ msgstr "فرودگاه مبدا"
+
+#~ msgid "Destination airport"
+#~ msgstr "فرودگاه مقصد"
+
+#~ msgid "Flight hour"
+#~ msgstr "ساعت پرواز"
+
+#~ msgid "Flight duration"
+#~ msgstr "مدت پرواز"
+
+#~ msgid "Airline class"
+#~ msgstr "کلاس"
+
+#~ msgid "Tour destination"
+#~ msgstr "مقصد"
+
+#~ msgid "Tour destinations"
+#~ msgstr "مقاصد"
+
+#~ msgid "Double bed"
+#~ msgstr "دو تخته"
+
+#~ msgid "Single bed"
+#~ msgstr "یک تخته"
+
+#~ msgid "Child"
+#~ msgstr "کودک"
+
+#~ msgid "Infant"
+#~ msgstr "نوزاد"
+
+#~ msgid "Extra bed"
+#~ msgstr "تخت اضافی"
+
+#~ msgid "Tour package"
+#~ msgstr "پیکیج"
+
+#~ msgid "Tour packages"
+#~ msgstr "پکیج ها"
+
+#~ msgid "Tourism‎"
+#~ msgstr "گردشگری"
+
+#~ msgid "Country name"
+#~ msgstr "نام کشور"
+
+#~ msgid "Country description"
+#~ msgstr "توضیحات کشور"
+
+#~ msgid "image"
+#~ msgstr "تصویر"
+
+#~ msgid "Country"
+#~ msgstr "کشور"
+
+#~ msgid "Countries"
+#~ msgstr "کشور ها"
+
+#~ msgid "Province name"
+#~ msgstr "نام استان"
+
+#~ msgid "Province description"
+#~ msgstr "توضیحات استان"
+
+#~ msgid "Province"
+#~ msgstr "استان"
+
+#~ msgid "Provinces"
+#~ msgstr "استان ها"
+
+#~ msgid "City name"
+#~ msgstr "نام شهر"
+
+#~ msgid "City description"
+#~ msgstr "توضیحات شهر"
+
+#~ msgid "Cities"
+#~ msgstr "شهر ها"
+
+#~ msgid "Visa"
+#~ msgstr "ویزا"
+
+#~ msgid "Price"
+#~ msgstr "قیمت"
+
+#~ msgid "Documents"
+#~ msgstr "اسناد"
+
+#~ msgid "Visas"
+#~ msgstr "ویزا‌ها"
+
+#~ msgid "Tour lines"
+#~ msgstr "خطوط حمل و نقل"
+
+#~ msgid "google_map"
+#~ msgstr "نقشه گوگل"
+
+#~ msgid "Manager"
+#~ msgstr "مدیر عامل"
+
+#, fuzzy
+#~| msgid "Host type"
+#~ msgid "Host title"
+#~ msgstr "نوع اقامتگاه"
+
+#~ msgid "TOURISM"
+#~ msgstr "گردشگری"
+
+#, fuzzy
+#~| msgid "Countries"
+#~ msgid "country_image"
+#~ msgstr "تصویر کشور"

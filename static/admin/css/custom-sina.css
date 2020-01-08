@@ -1,0 +1,74 @@
+
+.ui-tabs .ui-tabs-nav li{
+  border: 0px;
+  background: #FFFFFF;
+  padding: 0px;
+  margin-bottom: -1px;
+  border: 1px solid #ccc;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active{
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-color: #dee2e6 #dee2e6 #fff;
+  padding: 0px;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{
+  color: #495057;
+}
+
+.ui-tabs-nav{
+  background: #FFFFFF;
+  border: 0px;
+}
+
+#tabs{
+  border: none;
+}
+
+.colM ul:not(.object-tools) li{
+  border: 0px;
+  padding: 0px;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+    padding: 1em 1em;
+    font-weight: normal;
+}
+
+#change-history td, #change-history th, .change-list table td, .change-list table th, .dashboard table td, .dashboard table th, .results table td, .results table th, .tabular table td, .tabular table th{
+  text-align: right;
+  direction: rtl;
+}
+
+.related-widget-wrapper select {
+    float: right;
+    min-width: inherit!important;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 35px;
+    margin-left: 10px;
+}
+
+.related-widget-wrapper a.change-related {
+    margin: 0px;
+    margin-left: 5px;
+}
+
+form select {
+    background-position-x: 15px !important;
+}
+
+.module table td.field-tour_type,
+.module table td.field-airline,
+.module table td.field-city{
+    padding-left: 80px !important;
+}
+/*
+
+.field-tour_type, .field-city{
+    padding-left: 80px !important;
+}*/
