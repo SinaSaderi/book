@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-09 00:34+0330\n"
-"PO-Revision-Date: 2020-01-09 00:34+0330\n"
+"POT-Creation-Date: 2020-01-26 23:17+0330\n"
+"PO-Revision-Date: 2020-01-26 23:18+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa\n"
@@ -18,62 +18,73 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.8.7.1\n"
 
-#: article/apps.py:6 article/models.py:59
-msgid "Articles"
-msgstr "مقاله ها"
+#: books/apps.py:6 books/models.py:62
+msgid "Books"
+msgstr "کتاب ها"
 
-#: article/models.py:6 article/models.py:17
+#: books/models.py:6 books/models.py:17
 msgid "Full name"
 msgstr "نام کامل"
 
-#: article/models.py:9 article/models.py:51
+#: books/models.py:9 books/models.py:52
 msgid "Author"
 msgstr "نویسنده"
 
-#: article/models.py:10
+#: books/models.py:10
 msgid "Authors"
 msgstr "نویسنده ها"
 
-#: article/models.py:20 article/models.py:52
+#: books/models.py:20 books/models.py:53
 msgid "Translator"
 msgstr "مترجم"
 
-#: article/models.py:21
+#: books/models.py:21
 msgid "Translators"
 msgstr "مترجم ها"
 
-#: article/models.py:28 article/models.py:39 article/models.py:49
-#: article/models.py:53
+#: books/models.py:28 books/models.py:39 books/models.py:50 books/models.py:54
 msgid "Title"
 msgstr "عنوان"
 
-#: article/models.py:31
+#: books/models.py:31
 msgid "Publication"
 msgstr "ناشر"
 
-#: article/models.py:32
+#: books/models.py:32
 msgid "Publications"
 msgstr "ناشر ها"
 
-#: article/models.py:42 article/models.py:50
+#: books/models.py:42 books/models.py:51
 msgid "Category"
 msgstr "دسته بندی"
 
-#: article/models.py:43
+#: books/models.py:43
 msgid "Categories"
 msgstr "دسته بندی ها"
 
-#: article/models.py:54
+#: books/models.py:49
+msgid "Book No"
+msgstr "شماره کتاب"
+
+#: books/models.py:55
 msgid "Year"
 msgstr "سال"
 
-#: article/models.py:55 medadika/mylang.py:2
+#: books/models.py:56 medadika/mylang.py:2
 msgid "Page"
 msgstr "صفحه"
 
-#: article/models.py:58
-msgid "Article"
-msgstr "مقاله"
+#: books/models.py:57
+msgid "Book image"
+msgstr "تصویر"
+
+#: books/models.py:58
+msgid "Description"
+msgstr "توضیحات"
+
+#: books/models.py:61
+msgid "Book"
+msgstr "کتاب"
 
 #: medadika/mylang.py:1 medadika/mylang.py:25
 msgid "Pages"
@@ -267,6 +278,18 @@ msgstr ""
 msgid "Medadika Admin"
 msgstr "مدیریت مدادیکا"
 
+#~ msgid "Articles"
+#~ msgstr "مقاله ها"
+
+#~ msgid "Article No"
+#~ msgstr "شماره مقاله"
+
+#~ msgid "Article image"
+#~ msgstr "تصویر مقاله"
+
+#~ msgid "Article"
+#~ msgstr "مقاله"
+
 #~ msgid "General information"
 #~ msgstr "اطلاعات عمومی"
 
@@ -396,14 +419,8 @@ msgstr "مدیریت مدادیکا"
 #~ msgid "Hosts"
 #~ msgstr "اقامتگاه ها"
 
-#~ msgid "Host image"
-#~ msgstr "تصویر"
-
 #~ msgid " Host images"
 #~ msgstr "تصاویر اقامتگاه"
-
-#~ msgid "Description"
-#~ msgstr "توضیحات"
 
 #~ msgid "Destinations"
 #~ msgstr "مقاصد"

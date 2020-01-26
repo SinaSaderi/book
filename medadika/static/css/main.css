@@ -1,7 +1,13 @@
 body{
-  background: #f8f8f8;
+  background: #ffffff;
 }
 
 .ui-tabs .ui-tabs-nav li{
   float: right;
+}
+
+@media (min-width: 1170px){
+  #header .logo {
+      max-width: 150px;
+  }
 }

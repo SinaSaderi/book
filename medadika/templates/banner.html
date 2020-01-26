@@ -1,0 +1,116 @@
+{% load cms_tags menu_tags sekizai_tags staticfiles%}
+<div class="header-wrapper">
+    <header id="header" class="header-builder header-loaded" style="">
+        <div class="header-main" style="top: 0px;">
+        <div class="header-row container">
+            <div class="header-col header-left">
+                <ul id="menu-main-menu" class="main-menu mega-menu">
+                    <li id="nav-menu-item-2160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-143 current_page_item active narrow"><a href="https://medadika.com/" class=" current">خانه</a></li>
+                    <li id="nav-menu-item-2159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub narrow">
+                    <a href="https://medadika.com/%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87-%db%b2/" class="">دسته بندی ها</a>
+                    <div class="popup" style="display: block;">
+                        <div class="inner" style="">
+                            <ul class="sub-menu">
+                                <li id="nav-menu-item-2249" class="menu-item menu-item-type-custom menu-item-object-custom" data-cols="1"><a href="https://medadika.com/مقالات/philosophy" class="">فلسفه</a></li>
+                                <li id="nav-menu-item-2252" class="menu-item menu-item-type-custom menu-item-object-custom" data-cols="1"><a href="https://medadika.com/مقالات/history" class="">تاریخ</a></li>
+                                <li id="nav-menu-item-2254" class="menu-item menu-item-type-custom menu-item-object-custom" data-cols="1"><a href="https://medadika.com/مقالات/anthropology" class="">انسان شناسی</a></li>
+                                <li id="nav-menu-item-2255" class="menu-item menu-item-type-custom menu-item-object-custom" data-cols="1"><a href="https://medadika.com/مقالات/sociology" class="">جامعه شناسی</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </li>
+                    <li id="nav-menu-item-2204" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-sub wide col-3">
+                    <div class="popup" style="display: block; left: auto; right: -15px;">
+                        <div class="inner" style=";max-width:600px;">
+                            <ul class="sub-menu" style="width: 1090px;">
+                                <li id="nav-menu-item-2149" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub" data-cols="0.9" style="width: 30%;">
+                                <a class="nolink" href="#">Product Pages</a>
+                                <ul class="sub-menu">
+                                    <li id="nav-menu-item-2185" class="menu-item menu-item-type-post_type menu-item-object-product"><a href="https://medadika.com/product/silver-porto-headset/" class="">Variable Product</a></li>
+                                    <li id="nav-menu-item-2209" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.portotheme.com/wordpress/porto/shop5/product/headphone-black/" class="">Add Cart Sticky<span class="tip" style="">NEW</span></a></li>
+                                </ul>
+                                </li>
+                                <li id="nav-menu-item-2150" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub" data-cols="1.15" style="width: 38.3333%;">
+                                <a class="nolink" href="#">Product Layouts</a>
+                                <ul class="sub-menu">
+                                    <li id="nav-menu-item-2182" class="menu-item menu-item-type-post_type menu-item-object-product"><a href="https://medadika.com/product/silver-porto-headset/" class="">Left Sidebar<span class="tip" style="">NEW</span></a></li>
+                                </ul>
+                                </li>
+                                <li id="nav-menu-item-2167" class="menu-item menu-item-type-custom menu-item-object-custom" data-cols="0.95" style="background-image: url(&quot;//sw-themes.com/porto_dummy/wp-content/uploads/2017/12/shop1_megamenu.jpg&quot;); background-position: center center; background-repeat: no-repeat; background-size: cover; width: 31.6667%;"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </li>
+                    <li id="nav-menu-item-2164" class="menu-item menu-item-type-post_type menu-item-object-page narrow"><a href="https://medadika.com/%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87-%db%b2/" class="">فروشگاه</a></li>
+                    <li id="nav-menu-item-2161" class="menu-item menu-item-type-post_type menu-item-object-page narrow"><a href="https://medadika.com/%d8%ad%d8%b3%d8%a7%d8%a8-%da%a9%d8%a7%d8%b1%d8%a8%d8%b1%db%8c/" class="">حساب کاربری</a></li>
+                    <li id="nav-menu-item-2163" class="menu-item menu-item-type-post_type menu-item-object-page narrow"><a href="https://medadika.com/%d8%b3%d8%a8%d8%af-%d8%ae%d8%b1%db%8c%d8%af/" class="">سبد خرید</a></li>
+                    <li id="nav-menu-item-2172" class="menu-item menu-item-type-post_type menu-item-object-page narrow"><a href="https://medadika.com/about-us/" class="">درباره ما</a></li>
+                    <li id="nav-menu-item-2157" class="menu-item menu-item-type-post_type menu-item-object-page narrow"><a href="https://medadika.com/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/" class="">تماس با ما</a></li>
+                </ul>
+            </div>
+            <div class="header-col header-right">
+                <h1 class="logo logo-transition">
+                    <a href="https://medadika.com/" title="مدادیکا - کتابخانه انسانی مدادیکا" rel="home">
+                    <img class="img-responsive standard-logo retina-logo" src="{% static 'images/logo.png' %}" alt="مدادیکا">	</a>
+                </h1>
+            </div>
+        </div>
+        <div id="nav-panel">
+            <div class="container">
+                <div class="mobile-nav-wrap">
+                    <div class="menu-wrap">
+                    <ul id="menu-main-menu-1" class="mobile-menu accordion-menu">
+                        <li id="accordion-menu-item-2160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-143 current_page_item active"><a href="https://medadika.com/" class=" current ">خانه</a></li>
+                        <li id="accordion-menu-item-2159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub">
+                            <a href="https://medadika.com/%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87-%db%b2/" class="">دسته بندی ها</a>
+                            <span class="arrow"></span>
+                            <ul class="sub-menu">
+                                <li id="accordion-menu-item-2249" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://medadika.com/مقالات/philosophy" class="">فلسفه</a></li>
+                                <li id="accordion-menu-item-2252" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://medadika.com/مقالات/history" class="">تاریخ</a></li>
+                                <li id="accordion-menu-item-2254" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://medadika.com/مقالات/anthropology" class="">انسان شناسی</a></li>
+                                <li id="accordion-menu-item-2255" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://medadika.com/مقالات/sociology" class="">جامعه شناسی</a></li>
+                            </ul>
+                        </li>
+                        <li id="accordion-menu-item-2204" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children hidden-item has-sub">
+                            <span class="arrow"></span>
+                            <ul class="sub-menu">
+                                <li id="accordion-menu-item-2149" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-sub">
+                                <a class="nolink" href="#">Product Pages</a>
+                                <span class="arrow"></span>
+                                <ul class="sub-menu">
+                                    <li id="accordion-menu-item-2185" class="menu-item menu-item-type-post_type menu-item-object-product"><a href="https://medadika.com/product/silver-porto-headset/" class="">Variable Product</a></li>
+                                    <li id="accordion-menu-item-2209" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.portotheme.com/wordpress/porto/shop5/product/headphone-black/" class="">Add Cart Sticky<span class="tip" style="">NEW</span></a></li>
+                                </ul>
+                                </li>
+                                <li id="accordion-menu-item-2150" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-sub">
+                                <a class="nolink" href="#">Product Layouts</a>
+                                <span class="arrow"></span>
+                                <ul class="sub-menu">
+                                    <li id="accordion-menu-item-2182" class="menu-item menu-item-type-post_type menu-item-object-product"><a href="https://medadika.com/product/silver-porto-headset/" class="">Left Sidebar<span class="tip" style="">NEW</span></a></li>
+                                </ul>
+                                </li>
+                                <li id="accordion-menu-item-2167" class="menu-item menu-item-type-custom menu-item-object-custom hidden-item"></li>
+                            </ul>
+                        </li>
+                        <li id="accordion-menu-item-2164" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://medadika.com/%d9%81%d8%b1%d9%88%d8%b4%da%af%d8%a7%d9%87-%db%b2/" class="">فروشگاه</a></li>
+                        <li id="accordion-menu-item-2161" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://medadika.com/%d8%ad%d8%b3%d8%a7%d8%a8-%da%a9%d8%a7%d8%b1%d8%a8%d8%b1%db%8c/" class="">حساب کاربری</a></li>
+                        <li id="accordion-menu-item-2163" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://medadika.com/%d8%b3%d8%a8%d8%af-%d8%ae%d8%b1%db%8c%d8%af/" class="">سبد خرید</a></li>
+                        <li id="accordion-menu-item-2172" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://medadika.com/about-us/" class="">درباره ما</a></li>
+                        <li id="accordion-menu-item-2157" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://medadika.com/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/" class="">تماس با ما</a></li>
+                    </ul>
+                    </div>
+                    <div class="menu-wrap">
+                    <ul id="menu-top-navigation" class="top-links accordion-menu">
+                        <li id="accordion-menu-item-2166" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://medadika.com/%d8%ad%d8%b3%d8%a7%d8%a8-%da%a9%d8%a7%d8%b1%d8%a8%d8%b1%db%8c/" class="">حساب کاربری</a></li>
+                        <li id="accordion-menu-item-2154" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://medadika.com/about-us/" class="">درباره ما</a></li>
+                        <li id="accordion-menu-item-2195" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://medadika.com/wishlist/" class="">My Wishlist</a></li>
+                        <li id="accordion-menu-item-2196" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://medadika.com/site-map/" class="">Site Map</a></li>
+                        <li id="accordion-menu-item-2197" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://medadika.com/%d8%b3%d8%a8%d8%af-%d8%ae%d8%b1%db%8c%d8%af/" class="">سبد خرید</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+</div>

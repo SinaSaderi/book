@@ -45,7 +45,8 @@ class Category(models.Model):
     def __str__(self):
         return str(self.title)
 
-class Article(models.Model):
+class Book(models.Model):
+    bookNo = models.IntegerField(_("Book No"), blank=True, null=True)
     title = models.CharField(_("Title"), max_length=200)
     category = models.ForeignKey(Category, verbose_name=_("Category"))
     author = models.ForeignKey(Author, verbose_name=_("Author"))
@@ -53,10 +54,12 @@ class Article(models.Model):
     place = models.CharField(_("Title"), max_length=200, blank=True, null=True)
     year = models.CharField(_("Year"), max_length=20, blank=True, null=True)
     page = models.CharField(_("Page"), max_length=20, blank=True, null=True)
+    image = models.ImageField(_("Book image"), upload_to="book/images/", default="no-image.jpg")
+    description = HTMLField(_("Description"), blank=True, null=True)
 
     class Meta:
-        verbose_name = _("Article")
-        verbose_name_plural = _("Articles")
+        verbose_name = _("Book")
+        verbose_name_plural = _("Books")
 
     def __str__(self):
         return str(self.title)

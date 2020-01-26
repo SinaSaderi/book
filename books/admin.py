@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.utils.translation import gettext as _
-from .models import Author, Publication, Article, Translator, Category
+from .models import Author, Publication, Book, Translator, Category
 
 from django.contrib.admin.models import LogEntry
 
@@ -22,6 +22,6 @@ class PublicationAdmin(admin.ModelAdmin):
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ('title',)
 
-@admin.register(Article)
-class ArticleAdmin(admin.ModelAdmin):
+@admin.register(Book)
+class BookAdmin(admin.ModelAdmin):
     list_display = ('title',)

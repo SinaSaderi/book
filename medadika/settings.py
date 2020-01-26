@@ -159,11 +159,8 @@ INSTALLED_APPS = [
     'djangocms_bootstrap4.contrib.bootstrap4_utilities',
     'medadika',
     'tabbed_admin',
-    'article.apps.ArticleConfig',
-    # 'agency.apps.AgencyConfig',
-    # 'host.apps.HostConfig',
-    # 'tour.apps.TourConfig',
-    # 'visa.apps.VisaConfig',
+    'books.apps.BooksConfig',
+    'navigations.apps.NavigationsConfig',
 
 ]
 
