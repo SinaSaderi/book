@@ -1,6 +1,41 @@
 {% load cms_tags menu_tags sekizai_tags staticfiles%}
 <div class="header-wrapper">
     <header id="header" class="header-builder header-loaded" style="">
+            <div class="header-top">
+                    <div class="header-row container">
+                       <div class="header-col header-left">
+                          <div class="searchform-popup search-popup">
+                             <a class="search-toggle"><i class="fas fa-search"></i><span class="search-text">Search</span></a>	
+                             <form action="https://chnelectric.com/" method="get" class="searchform">
+                                <div class="searchform-fields">
+                                   <span class="text"><input name="s" type="text" value="" placeholder=" جستجو..." autocomplete="off"></span>
+                                   <span class="button-wrap">
+                                   <button class="btn btn-special" title="Search" type="submit"><i class="fas fa-search"></i></button>
+                                   </span>
+                                </div>
+                                <div class="live-search-list">
+                                   <div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div>
+                                </div>
+                             </form>
+                          </div>
+                       </div>
+                       <div class="header-col header-right">
+                          <div class="header-contact">
+                             <ul class="nav nav-pills nav-top">
+                                <li class="d-none d-sm-block">
+                                   <a href="#" target="_blank"><i class="fas fa-angle-right"></i>درباره ما</a> 
+                                </li>
+                                <li class="d-none d-sm-block">
+                                   <a href="#" target="_blank"><i class="fas fa-angle-right"></i>تماس با ما</a> 
+                                </li>
+                                <li class="phone nav-item-left-border nav-item-right-border">
+                                   <span style="direction: ltr;"> <i class="fas fa-phone"></i> (98) 21-33924816</span>
+                                </li>
+                             </ul>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
         <div class="header-main" style="top: 0px;">
         <div class="header-row container">
             <div class="header-col header-left">

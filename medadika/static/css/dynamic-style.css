@@ -3332,7 +3332,7 @@ ul.product_list_widget li .product-details .amount {
 }
 
 #header .main-menu>li.menu-item>a {
-	font-family: Open Sans, sans-serif;
+	font-family: IRANSans, Open Sans, sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 20px;
@@ -3356,7 +3356,7 @@ ul.product_list_widget li .product-details .amount {
 .toggle-menu-wrap .sidebar-menu .popup,
 .main-sidebar-menu .sidebar-menu .popup,
 .porto-popup-menu .sub-menu {
-	font-family: Open Sans;
+	font-family: IRANSans, Open Sans;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 24px;
@@ -3402,7 +3402,7 @@ ul.product_list_widget li .product-details .amount {
 
 #header .menu-custom-block span,
 #header .menu-custom-block a {
-	font-family: Open Sans;
+	font-family: IRANSans, Open Sans;
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 20px;
@@ -5084,7 +5084,7 @@ h6 {
 .header-side-nav .sidebar-menu .menu-custom-block a,
 .toggle-menu-wrap .sidebar-menu .menu-custom-block a,
 .main-sidebar-menu .sidebar-menu .menu-custom-block a {
-	font-family: Open Sans;
+	font-family:IRANSans, Open Sans;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 18px;
@@ -6231,7 +6231,7 @@ ul.category-color-dark li.product-category .thumb-info-title {
 ul.products li.product-col .add_to_cart_button,
 ul.products li.product-col .add_to_cart_read_more,
 ul.products li.product-col .quickview {
-	font-family: Open Sans;
+	font-family:IRANSans, Open Sans;
 }
 
 .owl-carousel.dots-color-primary .owl-dots .owl-dot span {
